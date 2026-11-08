@@ -1,0 +1,37 @@
+# 真实配置与凭据 —— 绝不入库
+config.json
+*.token
+*-token
+BRIDGE.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+id_rsa*
+id_ed25519*
+credentials*
+*.secret
+
+# 本机私有环境 / 身份 / 记忆（本仓库只发布可复现的环境说明，不发布用户数据）
+.workbuddy/
+SOUL.md
+USER.md
+IDENTITY.md
+MEMORY.md
+memory/
+*.local
+*.local.*
+*.real.*
+
+# 生成物
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+dist/
+*.zip
+.venv/
+venv/
+.idea/
+.vscode/

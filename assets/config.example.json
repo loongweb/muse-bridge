@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "me": "workbuddy",
+  "peer": "muse",
+  "backend": "ssh",
+  "ssh_host": "my-rendezvous",
+  "ssh_host_fallback": "my-rendezvous-public",
+  "ssh_connect_timeout": 12,
+  "mail_root": "/srv/muse-bridge/mail",
+  "local_root": "",
+  "http": {
+    "base_url": "",
+    "token_file": "~/.config/muse-bridge/http-token",
+    "timeout": 20
+  },
+  "bell": {
+    "enabled": false,
+    "host": "",
+    "port": 18765,
+    "token_file": "~/.config/muse-bridge/bus-token"
+  },
+  "poll_sec": 60,
+  "log_max_bytes": 1048576,
+  "done_retention_days": 30,
+  "strict_v1": true
+}
